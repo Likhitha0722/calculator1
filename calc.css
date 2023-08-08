@@ -1,0 +1,44 @@
+body{
+    background-image:linear-gradient(rgb(207, 163, 190),white,lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+table{
+margin-left: 20px;
+    
+}
+table tr td {
+    height: 50px;
+    width: 50px;
+    padding: 5px; 
+  
+}
+table tr td button{
+    height: 50px;
+    width: 50px;
+    background-image: linear-gradient(rgb(214, 164, 193));
+    
+}
+#calculator {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+.calc{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+}
+#demo h1{
+    text-align: center;
+}
+button:hover{
+    transform:scale(1.2,1.2);
+    background-image: linear-gradient(rgb(199, 157, 188),white,rgb(150, 203, 211));
+}
+
